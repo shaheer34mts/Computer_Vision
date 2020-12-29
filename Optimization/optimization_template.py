@@ -41,7 +41,7 @@ def objective_func(params, q_l, q_r, P_l, P_r):
     residual.append(q_r[1] - proj_q_r[1] / proj_q_r[2])
     return residual
 
-def define_stereo_cameras():
+# def define_stereo_cameras():
     # w, h, f = width, height, focal length
     # D = tuple of 5 distortion parameters
     # t_r, r_r = XYZ translatation and RPY rotation of right camera respective to left
